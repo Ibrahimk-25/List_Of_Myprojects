@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#080707;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 60px;
+    border-radius: 100px;
+    box-shadow: 40px 40px 40px #6873f7
+    
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    padding:10px;
+    font: size 40px;
+}
+.display{
+    font-size:40px;
+    padding:20px;
+    font-weight: bold;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    box-shadow: inset 20px 20px 50px #131212;
+    background-color: #ffffff;
+}
+button{
+    font-family:Arial, Helvetica, sans-serif;
+    padding:10px;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: #f50c0c ;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #6a5477;
+    transition: all 0.5s ease-in-out ;
+}
+
+button:hover{
+    transition: translate(5px 5px);
+    box-shadow: 5px 5px 5px #6a5477;
+    background-color: #f50c0c ;
+}
+.start{
+    background-color: #87e49f ;
+    font-style: oblique;
+    font-size: medium;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.stop{
+    background-color: #f77f7f ;
+    font-style: oblique;
+    font-size: medium;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.reset{
+    background-color: #f3d175 ;
+    font-style: oblique;
+    font-size: medium;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
